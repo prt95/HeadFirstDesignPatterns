@@ -49,10 +49,10 @@ public class App {
         Beverage mochaHouseBlend = new Mocha(houseBlend);
         Beverage whipHouseBlend = new Whip(houseBlend);
 
-        System.out.println(mochaEspresso.getDescription()+ " costs you "+ mochaEspresso.cost());
-        System.out.println(whipEspresso.getDescription()+ " costs you "+ whipEspresso.cost());
-        System.out.println(mochaHouseBlend.getDescription()+ " costs you "+ mochaHouseBlend.cost());
-        System.out.println(whipHouseBlend.getDescription()+ " costs you "+ whipHouseBlend.cost());
+        System.out.println(mochaEspresso.getDescription() + " costs you " + mochaEspresso.cost());
+        System.out.println(whipEspresso.getDescription() + " costs you " + whipEspresso.cost());
+        System.out.println(mochaHouseBlend.getDescription() + " costs you " + mochaHouseBlend.cost());
+        System.out.println(whipHouseBlend.getDescription() + " costs you " + whipHouseBlend.cost());
 
         /*
         Decorator Pattern : Java io example
@@ -60,8 +60,8 @@ public class App {
         try {
             int c;
             InputStream in = new LowerCaseInputStream(new BufferedInputStream(new FileInputStream("README.md")));
-            while((c=in.read())>=0){
-                System.out.print((char)c);
+            while ((c = in.read()) >= 0) {
+                System.out.print((char) c);
             }
             in.close();
         } catch (IOException e) {

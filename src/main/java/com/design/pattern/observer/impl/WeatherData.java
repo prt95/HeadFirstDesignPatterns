@@ -10,6 +10,7 @@ public class WeatherData implements Subject {
     private float temp;
     private float humid;
     private float pressure;
+
     @Override
     public void registerObserver(Observer observer) {
         this.observers.add(observer);
@@ -17,26 +18,27 @@ public class WeatherData implements Subject {
 
     @Override
     public void removeObserver(Observer observer) {
-        int i= observers.indexOf(observer);
-        if(i>=0) {
+        int i = observers.indexOf(observer);
+        if (i >= 0) {
             this.observers.remove(i);
         }
     }
 
     @Override
     public void notifyObservers() {
-        for(Observer o: observers){
+        for (Observer o : observers) {
             o.update(this.temp, this.humid, this.pressure);
         }
     }
-    public void measurementsChanged(){
+
+    public void measurementsChanged() {
         notifyObservers();
     }
 
-    public void setMeasurements(float temp, float humid, float pressure){
+    public void setMeasurements(float temp, float humid, float pressure) {
         this.temp = temp;
         this.humid = humid;
-        this.pressure= pressure;
+        this.pressure = pressure;
         this.measurementsChanged();
     }
 }

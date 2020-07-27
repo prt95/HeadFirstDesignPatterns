@@ -7,28 +7,28 @@ import com.design.pattern.strategy.behavior.FlyBehavior;
 import com.design.pattern.strategy.behavior.QuackBehavior;
 
 public abstract class Duck {
-        private FlyBehavior flyBehavior;
-        private QuackBehavior quackBehavior;
+    private FlyBehavior flyBehavior;
+    private QuackBehavior quackBehavior;
 
 
-        public abstract void display();
+    public abstract void display();
 
-        public void performFly(){
-            flyBehavior.fly();
-        }
+    public void performFly() {
+        flyBehavior.fly();
+    }
 
-        public void performQuack(){
-            quackBehavior.quack();
-        }
+    public void performQuack() {
+        quackBehavior.quack();
+    }
 
-        public  Duck(FlyBehavior flyBehavior, QuackBehavior quackBehavior){
-            setFlyBehavior(flyBehavior);
-            setQuackBehavior(quackBehavior);
-        }
+    public Duck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
+        setFlyBehavior(flyBehavior);
+        setQuackBehavior(quackBehavior);
+    }
 
-        public void swim(){
-            System.out.println("all ducks swim");
-        }
+    public void swim() {
+        System.out.println("all ducks swim");
+    }
 
 
 
