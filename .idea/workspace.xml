@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7bc1e62-80d8-4f62-ab11-d37ed133bc19" name="Default Changelist" comment="" />
+    <list default="true" id="f7bc1e62-80d8-4f62-ab11-d37ed133bc19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/javaIODecorator/LowerCaseInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/design/pattern/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/beverages/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/beverages/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/beverages/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/beverages/HouseBlend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/condiments/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/condiments/Whip.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,25 +21,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="471">
+              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/observer/impl/WeatherData.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/javaIODecorator/LowerCaseInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="354">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,94 +56,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/observer/impl/CurrentConditionDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="285">
               <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/Beverage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/Beverage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/CondimentDecorator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/CondimentDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/beverages/Espresso.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/beverages/Espresso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="135">
               <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/beverages/HouseBlend.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/beverages/HouseBlend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="75">
               <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Mocha.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/condiments/Mocha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="105">
               <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Whip.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/condiments/Whip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="195">
               <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/A.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Mocha.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Whip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/javaIODecorator/LowerCaseInputStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/design/pattern/App.java" />
       </list>
     </option>
@@ -169,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,18 +198,41 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="javaIODecorator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.design.pattern.decorator.basicexample" />
+      <recent name="com.design.pattern.decorator" />
       <recent name="com.design.pattern.decorator.impl" />
       <recent name="com.design.pattern.decorator.impl.beverages" />
     </key>
@@ -246,8 +264,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,90 +303,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/observer/impl/CurrentConditionDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="285">
           <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/CondimentDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/beverages/Espresso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/beverages/HouseBlend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/Beverage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/Beverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Mocha.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/CondimentDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/beverages/Espresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/beverages/HouseBlend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/condiments/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/impl/condiments/Whip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/basicexample/impl/condiments/Whip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="195">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/decorator/javaIODecorator/LowerCaseInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/design/pattern/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="471">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
         </state>
       </provider>
     </entry>

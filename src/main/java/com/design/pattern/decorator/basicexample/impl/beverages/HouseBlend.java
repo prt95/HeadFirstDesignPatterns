@@ -1,6 +1,6 @@
-package com.design.pattern.decorator.impl.beverages;
+package com.design.pattern.decorator.basicexample.impl.beverages;
 
-import com.design.pattern.decorator.Beverage;
+import com.design.pattern.decorator.basicexample.Beverage;
 
 public class HouseBlend extends Beverage {
     public HouseBlend() {

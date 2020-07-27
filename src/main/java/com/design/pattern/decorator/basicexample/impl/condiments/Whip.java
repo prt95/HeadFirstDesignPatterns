@@ -1,7 +1,7 @@
-package com.design.pattern.decorator.impl.condiments;
+package com.design.pattern.decorator.basicexample.impl.condiments;
 
-import com.design.pattern.decorator.Beverage;
-import com.design.pattern.decorator.CondimentDecorator;
+import com.design.pattern.decorator.basicexample.Beverage;
+import com.design.pattern.decorator.basicexample.CondimentDecorator;
 
 public class Whip extends CondimentDecorator {
     private Beverage beverage;
