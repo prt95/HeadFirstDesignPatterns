@@ -6,6 +6,7 @@ import com.design.pattern.decorator.basicexample.impl.beverages.HouseBlend;
 import com.design.pattern.decorator.basicexample.impl.condiments.Mocha;
 import com.design.pattern.decorator.basicexample.impl.condiments.Whip;
 import com.design.pattern.decorator.javaIODecorator.LowerCaseInputStream;
+import com.design.pattern.factory.Vehiclefactory;
 import com.design.pattern.observer.impl.CurrentConditionDisplay;
 import com.design.pattern.observer.impl.WeatherData;
 import com.design.pattern.strategy.bean.Duck;
@@ -68,6 +69,20 @@ public class App {
             e.printStackTrace();
         }
         System.out.println();
+
+        /*
+            Factory pattern
+         */
+
+        Vehiclefactory vehiclefactory = new Vehiclefactory();
+        vehiclefactory.createVehicle("CAR").ride();
+        vehiclefactory.createVehicle("TAXI").ride();
+
+
+       /*
+        Abstract factory pattern
+        */
+
 
 
     }
