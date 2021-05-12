@@ -1,5 +1,7 @@
 package com.design.pattern;
 
+import com.design.pattern.abstractfactory.Location;
+import com.design.pattern.abstractfactory.factories.MainCarFactory;
 import com.design.pattern.decorator.basicexample.Beverage;
 import com.design.pattern.decorator.basicexample.impl.beverages.Espresso;
 import com.design.pattern.decorator.basicexample.impl.beverages.HouseBlend;
@@ -13,6 +15,8 @@ import com.design.pattern.strategy.bean.Duck;
 import com.design.pattern.strategy.bean.MallardDuck;
 
 import java.io.*;
+
+import static com.design.pattern.abstractfactory.CarType.MICRO;
 
 /**
  * Hello world!
@@ -83,6 +87,9 @@ public class App {
         Abstract factory pattern
         */
 
+        MainCarFactory mainCarFactory = new MainCarFactory();
+        mainCarFactory.buildCar(MICRO, Location.IN);
+        mainCarFactory.buildCar(MICRO, Location.US);
 
 
     }
