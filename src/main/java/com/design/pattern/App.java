@@ -2,6 +2,7 @@ package com.design.pattern;
 
 import com.design.pattern.abstractfactory.Location;
 import com.design.pattern.abstractfactory.factories.MainCarFactory;
+import com.design.pattern.builder.BankAccount;
 import com.design.pattern.decorator.basicexample.Beverage;
 import com.design.pattern.decorator.basicexample.impl.beverages.Espresso;
 import com.design.pattern.decorator.basicexample.impl.beverages.HouseBlend;
@@ -11,6 +12,7 @@ import com.design.pattern.decorator.javaIODecorator.LowerCaseInputStream;
 import com.design.pattern.factory.Vehiclefactory;
 import com.design.pattern.observer.impl.CurrentConditionDisplay;
 import com.design.pattern.observer.impl.WeatherData;
+import com.design.pattern.singleton.Singleton;
 import com.design.pattern.strategy.bean.Duck;
 import com.design.pattern.strategy.bean.MallardDuck;
 
@@ -91,6 +93,21 @@ public class App {
         mainCarFactory.buildCar(MICRO, Location.IN);
         mainCarFactory.buildCar(MICRO, Location.US);
 
+
+        /*
+        Singleton
+         */
+
+        Singleton singleton = Singleton.getInstance();
+        singleton.printHashCode();
+        Singleton singleton2 = Singleton.getInstance();
+        singleton2.printHashCode();
+
+        /*
+        Builder pattern
+         */
+
+        BankAccount bankAccount = new BankAccount.Builder(1).atBranch("KA").atRate(2).build();
 
     }
 }
